@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    cursor: pointer;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+#menu > *{
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 3px 8px;
+}
+.name{
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.login{
+    padding: 3px 8px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.signup{
+    padding: 3px 8px;
+    border-radius: 50px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.real h1{
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+.img-1{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+.img-4{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+.img-3{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+.img-2{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.bottom h6{
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%,-50%);
+}
+.logos{
+    position: absolute;
+    left: 90%;
+    top: 93%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    height: 20px;
+    width: 20px;
+    gap: 5px;
+}
+h4{
+    font-size: 10px;
+    position: absolute;
+    left: 89%;
+    top: 95%;
+
+}
